@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Login from '/components/account/Login.jsx';
 
 
-import login from './components/account/login.jsx';
+
 
 function App() {
   return (
-    <div className="App">
-      <login/>
+    <div style={{marginTop:64}}>
+      <Login/>
     </div>
   );
 }
